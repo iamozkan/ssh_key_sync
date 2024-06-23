@@ -1,4 +1,4 @@
-#!/bin/biash
+#!/bin/bash
 
 echo "task is started !"
 
