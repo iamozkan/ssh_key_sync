@@ -2,7 +2,7 @@
 
 echo "task is started !"
 
-ssh_directory=$HOME/.test
+ssh_directory=$HOME/.ssh
 authorized_keys_file=$ssh_directory/authorized_keys
 
 if [ -z $key_directory ]; then
