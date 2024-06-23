@@ -33,11 +33,11 @@ else
 		
 	cat $key_directory/*.pub > $check_auth_keys
 
-	cat $check_auth_keys
+	#cat $check_auth_keys
 	
 	grep -Ff $check_auth_keys $authorized_keys_file > $authorized_keys_file
 	 
-	cat $authorized_keys_file
+	#cat $authorized_keys_file
 
 	echo "unmatched keys are removed. $authorized_keys_file"
 
